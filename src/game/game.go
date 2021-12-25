@@ -108,7 +108,7 @@ func (game *Game) Setup() {
 
 	for x := 0; x < GAME_WIDTH; x++ {
 		for y := 0; y < GAME_HEIGHT; y ++ {
-			grid[x][y] = rand.Intn(4) == 0 
+			grid[x][y] = rand.Intn(2) == 0 
 		}
 	}
 }
