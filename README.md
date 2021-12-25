@@ -6,6 +6,8 @@ This is a version of the game of life written in Golang using the [Ebiten](https
 
 ![Running version of the application "game of life"](public/thumbnail.gif)
 
+> Click [here](https://asynched.github.io/game-of-life/) for the web preview! 😸
+
 ## How to install
 
 1. Follow the steps described [here](https://ebiten.org/documents/install.html).
