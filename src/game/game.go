@@ -100,7 +100,7 @@ func (game *Game) Setup() {
 		LogInfo("Generated random seed: ", seed)
 	}
 
-	rand.Seed(10)
+	rand.Seed(seed)
 
 	if GAME_DEBUG {
 		LogInfo("Running game grid setup")
